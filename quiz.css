@@ -1,0 +1,34 @@
+* {margin:0; padding:0;}
+body {background:#CAD3D3; margin:0; padding:0; font-family: Verdana, Arial, Helvetica, Sans-serif; font-size:120%;}
+
+div.showtest {margin:27px 0px 0px 0px;padding:0; background:#fff}
+div.showtest div.question {margin-bottom:30px;clear:both;}
+div.showtest div.question div.qnumdiv {background: url(images/question_vert_divider.gif) repeat-x; height:31px;border:1px solid #9ea6a7;}
+div.showtest div.question div.qnumdiv p.qnum {padding:7px 13px 8px 13px;color:#330033;}
+div.showtest div.question p.qhead {padding:9px 13px 12px 13px;color:#330033; border-bottom:1px dashed #CECECE; margin: 0 0 20px 0;}
+
+
+.answer { padding: 3px 0 3px 20px; margin: 5px 5px 0 0; }
+
+.rightanswer { background: url(images/right.png) no-repeat; background-position: 0 2px;}
+.wronganswer { background: url(images/wrong.png) no-repeat; background-position: 0 2px;}
+
+.results
+{
+padding: 20px 0 15px 0;
+border-top: 1px dashed #CECECE;
+}
+
+.char { font-weight: bold; padding: 0 5px 0 5px; }
+.green { color: #339900; }
+
+.explained 
+{
+	margin: 15px 0 15px 42px;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid #ccc;
+	font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
+	font-size: 11px;
+	background: #f8f8f8;
+}
+
